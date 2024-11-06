@@ -1,0 +1,39 @@
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.destination-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.destination-item:hover {
+    transform: scale(1.05); 
+}
+
+.destination-item img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.destination-item p {
+    font-size: 14px;
+    padding: 10px;
+    color: #666;
+}
+
+.multimedia {
+    text-align: center;
+    margin-top: 40px;
+}

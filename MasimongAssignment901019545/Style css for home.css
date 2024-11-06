@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe print, sans-serif';
+    background-color: #033b0e;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: segoe print, sans-serif;
+    background-color: #083107;
+    color: rgb(165, 223, 30);
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: segoe print, sans-serif;
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    font-family: segoe print, sans-serif;
+    color: rgb(9, 238, 9);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #af2b88;
+}
+
+.intro {
+    font-family: segoe print, sans-serif;
+    text-align: center;
+    padding: 2em 0;
+    color: rgb(205, 241, 72);
+}
+
+.carousel {
+    color: aliceblue;
+    font-family:Comic Sans MS,sans-serif;
+    font-size: large;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin: 2em 0;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
